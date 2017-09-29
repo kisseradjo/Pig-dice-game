@@ -2,6 +2,21 @@ body {
   color: inherit;
 }
 
+.jumbotron {
+  width: 800px;
+  height: 350px;
+  background-size: 100vh;
+  background-color: #DE3163;
+}
+
+.page-header {
+  margin-top: -20px;
+}
+
+h2 {
+  color: white;
+}
+
 h1 {
   font-family: 'Chewy', cursive;
   color: #F5F5F5;

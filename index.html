@@ -14,6 +14,28 @@
 </head>
 
 <body>
+  <div class="pop-up-menu container">
+    <div class="jumbotron">
+      <div class="page-header">
+        <h2>Ready for a game of Pig dice?</h2></div>
+      <form id="Name-of-Player1">
+        <div class="form-group">
+          <label for="player1Name">Player I:</label>
+          <input required class="NameplayerI form-control" type="text" placeholder="Name">
+        </div>
+      </form>
+      <form id="Name-of-Player2">
+        <div class="form-group">
+          <label for="player2Name">Player II:</label>
+          <input required class="NameplayerII form-control" type="text" placeholder="Name">
+        </div>
+      </form>
+      <button id="begin" class="btn-default btn">Begin!</button></div>
+  </div>
+
+
+
+
   <div class="part-1"></div>
   <div class="part1">
     <div class="col-md-7">
@@ -25,9 +47,9 @@
   </div>
   <div class="players">
     <div class="col-md-6">
-      <div class="player1">
+      <div class="player1" id="first-player">
         <form class="score">
-          <div class="form-group"><label for="score"><i class="fa fa-user" aria-hidden="true"></i><p><strong><h2>PLAYER 1</h2></strong><p></label>
+          <div class="form-group"><label for="score"><i class="fa fa-user" aria-hidden="true"></i><p><strong><h2>PLAYER 1:<span id="Name-of-Player1"><span></h2></strong><p></label>
             <output id="score" type="text"></div>
         </form>
     </div>
@@ -40,9 +62,9 @@
   </div>
 
   <div class="col-md-6">
-    <div class="player2">
+    <div class="player2" id="second-player">
         <form class="score">
-          <div class="form-group"><label for="score"><i class="fa fa-user" aria-hidden="true"></i><p><strong><h2>PLAYER 2</h2></strong><p></label>
+          <div class="form-group"><label for="score"><i class="fa fa-user" aria-hidden="true"></i><p><strong><h2>PLAYER 2:<span id = "Name-of-player2"><span></h2></strong><p></label>
             <output id="total" type="text"></div>
         </form>
       </div>
